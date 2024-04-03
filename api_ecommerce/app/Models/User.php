@@ -28,6 +28,7 @@ class User extends Authenticatable implements JWTSubject
         'telefono',
         'uniqd',
         'email',
+        'code_verified',
         'email_verified_at',
         'tipoUsuario',
         
